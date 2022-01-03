@@ -1,4 +1,4 @@
-import React, { createContext, useCallback, useContext, useReducer, useRef } from "react"
+import React, { createContext, useContext, useReducer, useRef } from "react"
 
 const initialTodos = [
     {
@@ -20,6 +20,11 @@ const initialTodos = [
       id: 4,
       text: '기능 구현하기',
       done: false
+    },
+    {
+        id: 5,
+        text: '새해 계획짜기',
+        done: false
     }
   ];
 
